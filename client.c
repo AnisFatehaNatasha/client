@@ -13,7 +13,8 @@ void error(char *msg)
 
 int main(int argc, char *argv[])
 {
-    int sockfd, portno;
+    int sockfd,
+    int portno = 8080;
     struct sockaddr_in serv_addr;
     struct hostent *server;
     int n;
