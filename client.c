@@ -14,7 +14,7 @@ void error(char *msg)
 int main(int argc, char *argv[])
 {
     int sockfd,
-    int portno = 8080;
+    int portno;
     struct sockaddr_in serv_addr;
     struct hostent *server;
     int n;
