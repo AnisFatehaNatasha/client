@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
     if(argc != 2)
     {
-        printf("\n Usage: %s <10.2.6.98> \n",argv[0]);
+        printf("\n Usage: %s <What'sup> \n",argv[0]);
         return 1;
     } 
 
