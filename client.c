@@ -3,6 +3,7 @@
 #include <netinet/in.h>
 #include <string.h>
 #include <netdb.h>
+#include<unistd.h>
 
 void error(char *msg) 
 {
