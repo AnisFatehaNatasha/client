@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     int sockfd, portno;
     struct sockaddr_in serv_addr;
     struct hostent *server;
-    int n;
+    char n;
     char buffer[256];
 
     if (argc < 3)
@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
     n = write(sockfd,buffer,strlen(buffer));
 
     if (n < 0)
-    {/
+    {
         error("ERROR writing to socket");
     }
 
